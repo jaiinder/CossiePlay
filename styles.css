@@ -1,0 +1,135 @@
+@charset "utf-8";
+#wrapper{
+	width:90%;
+	margin: 0 auto;
+}
+#Main
+{
+	background-image:url(images/we-re-rabbits-1439192-1279x850.jpg)
+
+}
+header {
+	
+	color: aliceblue;
+	height: 130px;
+	background-size: 100%;
+	background-color: chocolate;
+	margin-bottom:0px;
+	
+}
+
+
+header h1{
+	padding:20px;
+	text-align:left;
+	font-size:400%;
+	}
+
+
+ nav ul li{
+	list-style:none;
+	float:left;
+	text-align:center;
+	font-size:120%;
+	padding-right: 68px;
+
+		
+}
+nav ul{
+	float:left;
+	align-content: center;
+	background-color:darkred;
+	height: 100%;
+	width: 1095px;
+	margin-top: 0px;
+	margin-bottom: 0px;
+	
+}
+ nav ul li a{
+	text-decoration:none;
+	display:block;
+	padding-left:10px;
+	padding-right:10px;
+	
+ 	font-weight:bold;
+	color:aliceblue;
+	text-align:center;
+
+}
+ nav ul li a:hover{
+	color:red;	
+}
+#main_h1{
+	clear:both;
+    background-color: chocolate;
+	color:aliceblue;
+	margin-top:0px;
+	margin-bottom: 0px;
+	
+}
+
+#col1{
+	background-image:url(images/air.jpg);
+	
+	width:500px;
+	height: 330px;
+   padding: 0px;
+	float:left;	
+}
+
+
+#col2{
+	width:618px;
+	height: 310px;
+	float:left;
+	background-color:brown;
+	
+	margin:0px 0px 0px 0px;
+	padding:9px;
+	color: aliceblue;
+}
+#col3{
+	clear: both;
+	background-color:darkred;
+	align-content: center;
+	text-align: center;
+	color: aliceblue;
+	padding: 10px;
+	margin-bottom: 10px;
+
+}
+
+footer h3{
+font-size:90%;
+text-align:center;
+}
+
+label {
+    display:block;
+    margin-top:40px;
+    letter-spacing:2px;
+}
+
+#submit {
+    width:127px;
+    height:38px;
+  
+    
+    border:none;
+    margin-top:20px;
+    cursor:pointer;
+}
+form {
+    margin:0 auto;
+    width:99px;
+}
+table, th, td {
+    border: 1px solid black;
+	border-collapse: collapse;
+	  padding: 5px;
+	text-align: left;
+	border-spacing: 1px;
+	border-color: aliceblue;
+
+}
+	

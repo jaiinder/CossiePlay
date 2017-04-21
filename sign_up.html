@@ -1,0 +1,79 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>CossiePlay</title>
+
+<link href="styles.css" rel="stylesheet" type="text/css">
+<script>
+function run_first(){
+var id_var=sessionStorage.li_id;
+if(id_var){
+document.getElementById(id_var).style.background="gray";
+}
+}
+
+	function nav_li_selected(li_id){
+		for(i=0;i<6;i++){
+		document.getElementById(i.toString()).style.backgroundColor="";
+		}
+		document.getElementById(li_id.toString()).style.background="red";
+		sessionStorage.li_id=li_id.toString();
+	}
+ </script>
+</head>
+
+<body onLoad="run_first()">
+<div id="Main">
+<div id="wrapper">
+ 	  <header>
+    
+     	 <h1> CossiePlay</h1>
+         
+      </header>
+      <nav>
+         	<ul>
+            	<li>
+                <a href="index.html" id="0" onclick="nav_li_selected(0)">Home</a>
+                </li>
+                <li>
+                <a href="sign_up.html" id="1" onclick="nav_li_selected(1)">Sign Up</a>
+                </li>
+                <li>
+                <a href="announcements.html" id="2" onclick="nav_li_selected(2)">Announcements</a>
+                </li>
+                <li>
+                <a href="party.html" id="3" onclick="nav_li_selected(3)">Party Guidelines</a>
+                </li>
+                <li>
+                <a href="about_us.html" id="4" onclick="nav_li_selected(4)">About Us</a>
+                </li>
+                <li>
+                <a href="contact_us.html" id="5" onclick="nav_li_selected(5)">Contact Us</a>
+                </li>
+            </ul>
+         </nav>
+          <h1 id="main_h1" align="center">Sign-Up</h1>
+       </section>
+      <section id="col4">
+      
+      </section>
+      
+      <section id="col2"   style="margin-left:250px">
+    
+       	<form>
+       		<label>Name</label><br>
+       		<input type="text" name="name" placeholder="Type Here">
+       		<label>Number Of Persons</label><br>
+       		<input type="number" person="person" placeholder="Type Here"><br>
+       		<input id="submit" name="submit" type="submit" value="Submit and Email">
+       	</form>
+     
+      </section>
+      <section id="col3">
+      <footer>Copyright©CossiePlay©CossiePlay</footer>
+      </section>
+ </div>
+ </div>
+</body>
+</html>
